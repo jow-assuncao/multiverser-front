@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    @font-face {
+        font-family: Oxanium;
+        font-style: normal;
+        font-weight: 200;
+        font-display: swap;
+        src: url(../assets/fonts/Oxanium/Oxanium-ExtraLight.ttf) format('truetype');
+      }
+      @font-face {
+        font-family: Oxanium;
+        font-style: normal;
+        font-weight: 300;
+        font-display: swap;
+        src: url(../assets/fonts/Oxanium/Oxanium-Light.ttf) format('truetype');
+      }
+      @font-face {
+        font-family: Oxanium;
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url(../assets/fonts/Oxanium/Oxanium-Regular.ttf) format('truetype');
+      }
+      @font-face {
+        font-family: Oxanium;
+        font-style: normal;
+        font-weight: 500;
+        font-display: swap;
+        src: url(../assets/fonts/Oxanium/Oxanium-Medium.ttf) format('truetype');
+      }
+      @font-face {
+        font-family: Oxanium;
+        font-style: normal;
+        font-weight: 600;
+        font-display: swap;
+        src: url(../assets/fonts/Oxanium/Oxanium-SemiBold.ttf) format('truetype');
+      }
+      @font-face {
+        font-family: Oxanium;
+        font-style: normal;
+        font-weight: 700;
+        font-display: swap;
+        src: url(../assets/fonts/Oxanium/Oxanium-Bold.ttf) format('truetype');
+      }
+      @font-face {
+        font-family: Oxanium;
+        font-style: normal;
+        font-weight: 800;
+        font-display: swap;
+        src: url(../assets/fonts/Oxanium/Oxanium-ExtraBold.ttf) format('truetype');
+      }
+
+    html {
+        font-family: Oxanium;
+        box-sizing: border-box;
+    }
+}

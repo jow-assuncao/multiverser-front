@@ -27,3 +27,7 @@ To update TailwindCSS output run:
 ```bash
 npx tailwindcss -i ./src/styles/input.css -o ./src/styles/output.css --watch
 ```
+
+## Author
+
+Jonathan Assunção | almeida_jn@hotmail.com
